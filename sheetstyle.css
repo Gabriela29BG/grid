@@ -1,0 +1,23 @@
+.contenedor {
+    border: 5px solid white;
+    background-color:  green;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    grid-auto-flow: column;
+    place-content: center;
+    
+}
+
+.item {
+    border: 10px solid #808000;
+    background-color: #00FF00;
+    display: grid;
+   place-content: end;
+   
+    font-size: 2rem;
+}
+span {
+    background-color: #337900;
+    color: white;
+}
